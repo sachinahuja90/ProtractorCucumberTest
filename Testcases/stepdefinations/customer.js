@@ -1,43 +1,67 @@
-// var homePage = require('../pageObjects/homePage');
-// var customerPage = require('../pageObjects/customerPage');
+var hmPage = require('../pageObjects/homePage');
+var cmPage = require('../pageObjects/customerPage');
+var browserKeywords = require('../Utilities/browserKeywords');
 
-// Given('User is on the Home page of the application', function () {
-//   // Write code here that turns the phrase above into concrete actions
-//   expect(homePage.customerLoginButton.isPresent()).to.eventually.be.true;
-//   Logger.info('User is at the Home page');
-//   return browser.sleep(20);
-// });
+When('User select his name {string} and Click Login Button', async function (string) {
+   try{
+    await browserKeywords.click(hmPage.homePage.customerLoginButton);
+    await browserKeywords.selectByValueFromDropdown(cmPage.customerPage.customerNameDropdown, string);
+    await browserKeywords.click(cmPage.customerPage.submitButton);
+    return browser.sleep(200);
+   }
+   catch(Exception)
+{
+throw error;
+}
+});
 
-// When('A customer gets logged in & Depost {amount}', function (amount) {
-//   homePage.clickCustomerLogin();
-//   customerPage.clickCustomerNameDropdown();
-  
+Then('User name {string} should be visible on the screen', async function (string) {
+    await browserKeywords.verifyWebElementText(cmPage.customerPage.welcomeMessage,string);
+    return browser.sleep(200);
+});
 
-//   return browser.sleep(20);
-// });
+When('A customer gets logged in as {string}',async function (string) {
+    await browserKeywords.click(hmPage.homePage.customerLoginButton);
+    await browserKeywords.selectByValueFromDropdown(cmPage.customerPage.customerNameDropdown, string);
+    return browserKeywords.click(cmPage.customerPage.submitButton);;
+});
 
-// Then('Amount must get Deposited', function () {
-//   // Write code here that turns the phrase above into concrete actions
-//   return browser.sleep(20);
-// });
+When('Deposit {int} in his Account', async function (int) {
+    await browserKeywords.click(cmPage.customerPage.depositButton);
+    await browserKeywords.sendKeys(cmPage.customerPage.amount,int);
+    await browserKeywords.click(cmPage.customerPage.submitButton);
+    return browser.sleep(20);
+});
 
 
-// When('A customer gets logged in & Withdrawl an amount', function () {
-//   // Write code here that turns the phrase above into concrete actions
-//   return browser.sleep(20);
-// });
+When('Withdraw {int} from his Account', async function (int) {
+    await browserKeywords.click(cmPage.customerPage.withdrawButton);
+    await browserKeywords.sendKeys(cmPage.customerPage.amount,int);
+    await browserKeywords.click(cmPage.customerPage.submitButton);
+    return browser.sleep(20);
+});
 
-// Then('amount must get Withdrawl', function () {
-//   // Write code here that turns the phrase above into concrete actions
-//   return 'pending';
-// });
+When('Withdraw amount greater than balance from his Account', async function () {
+    await browserKeywords.click(cmPage.customerPage.withdrawButton);
+    await cmPage.customerPage.balanceAmount.getText().then(async function (text) {
+        await browserKeywords.sendKeys(cmPage.customerPage.amount,text + 12);
+        await browserKeywords.click(cmPage.customerPage.submitButton);
+    });
+    return browser.sleep(20);
+});
 
-// When('A manager gets logged in & add a Customer with Rahul Kant E{int}', function (int) {
-//   // Write code here that turns the phrase above into concrete actions
-//   return 'pending';
-// });
 
-// Then('Customer must get added in Customer List', function () {
-//   // Write code here that turns the phrase above into concrete actions
-//   return 'pending';
-// });
+Then('User should get message as {string}', async function (string) {
+    await browserKeywords.verifyWebElementText(cmPage.customerPage.validationMessage,string);
+    return browser.sleep(20);
+});
+
+
+When('Navigate to Transactions Screen', async function () {
+    await browserKeywords.click(cmPage.customerPage.transactionButton);
+    return browser.sleep(20);
+});
+
+Then('Reset button should be present if balance is greater than {int}',  function (int) {
+    return expect(cmPage.customerPage.resetTransaction.isDisplayed()).to.eventually.be.true;
+});

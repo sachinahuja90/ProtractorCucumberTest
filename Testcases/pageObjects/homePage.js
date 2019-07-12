@@ -5,6 +5,7 @@ module.exports = {
     customerLoginButton: element(by.css('[ng-click="customer()"]')),
     managerLoginButton: element(by.css('[ng-click="manager()"]')),
     homeButton: element(by.css('[ng-click="home()"]')),
+    
   },
 
   clickCustomerLogin: function () {
@@ -17,5 +18,9 @@ module.exports = {
 
   clickHomeButton: function () {
     this.homePage.homeButton.click();
+  },
+
+  verifyCustomerLoginButton:function(){
+    return expect(this.homePage.customerLoginButton.isDisplayed()).to.eventually.be.true;
   }
 };

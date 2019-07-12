@@ -1,4 +1,111 @@
-[2019-07-02T20:32:07.783] [INFO] ProtractorTest - Info
-[2019-07-02T20:32:07.785] [ERROR] ProtractorTest - Error
-[2019-07-02T20:32:17.820] [INFO] ProtractorTest - Info
-[2019-07-02T20:32:17.821] [ERROR] ProtractorTest - Error
+[2019-07-10T13:27:28.146] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:29.458] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="manager()"])] clicked
+[2019-07-10T13:27:29.480] [INFO] ProtractorTest - Text : 'Ravneet' typed in Webelement[by.model("fName")]
+[2019-07-10T13:27:29.481] [INFO] ProtractorTest - Text : 'Kaul' typed in Webelement[by.model("lName")]
+[2019-07-10T13:27:29.481] [INFO] ProtractorTest - Text : '121234' typed in Webelement[by.model("postCd")]
+[2019-07-10T13:27:29.583] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="addCust()"])] clicked
+[2019-07-10T13:27:30.612] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:30.804] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="showCust()"])] clicked
+[2019-07-10T13:27:30.904] [INFO] ProtractorTest - ######## End testcase : Add New Customers ########
+[2019-07-10T13:27:30.909] [INFO] ProtractorTest - ######## Start testcase : Open New Account########
+[2019-07-10T13:27:30.909] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:30.911] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:32.409] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="manager()"])] clicked
+[2019-07-10T13:27:32.627] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="openAccount()"])] clicked
+[2019-07-10T13:27:33.097] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:27:33.379] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:27:33.882] [INFO] ProtractorTest - Webelement : [by.model("currency")] clicked
+[2019-07-10T13:27:34.019] [INFO] ProtractorTest - Pound has been selected from dropdown [by.model("currency")]
+[2019-07-10T13:27:34.411] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:34.788] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="showCust()"])] clicked
+[2019-07-10T13:27:36.913] [INFO] ProtractorTest - ######## End testcase : Open New Account ########
+[2019-07-10T13:27:36.922] [INFO] ProtractorTest - ######## Start testcase : Open New Account########
+[2019-07-10T13:27:36.923] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:36.925] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:38.801] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="manager()"])] clicked
+[2019-07-10T13:27:39.105] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="openAccount()"])] clicked
+[2019-07-10T13:27:39.214] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:27:39.558] [INFO] ProtractorTest - Ravneet Kaul has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:27:40.259] [INFO] ProtractorTest - Webelement : [by.model("currency")] clicked
+[2019-07-10T13:27:40.414] [INFO] ProtractorTest - Dollar has been selected from dropdown [by.model("currency")]
+[2019-07-10T13:27:40.991] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:41.452] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="showCust()"])] clicked
+[2019-07-10T13:27:43.544] [INFO] ProtractorTest - ######## End testcase : Open New Account ########
+[2019-07-10T13:27:43.559] [INFO] ProtractorTest - ######## Start testcase : Customer Login Validation########
+[2019-07-10T13:27:43.559] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:43.563] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:45.656] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:27:46.162] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:27:46.511] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:27:46.957] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:47.447] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='fontBig ng-binding'])] contains text : Rahul Kant
+[2019-07-10T13:27:47.856] [INFO] ProtractorTest - ######## End testcase : Customer Login Validation ########
+[2019-07-10T13:27:47.873] [INFO] ProtractorTest - ######## Start testcase : Customer Deposit with valid input########
+[2019-07-10T13:27:47.874] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:47.880] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:49.213] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:27:49.621] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:27:49.850] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:27:50.292] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:50.803] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="deposit()"])] clicked
+[2019-07-10T13:27:51.006] [INFO] ProtractorTest - Text : '230' typed in Webelement[By(xpath, //input[@placeholder='amount'])]
+[2019-07-10T13:27:51.794] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:52.175] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='error ng-binding'])] contains text : Deposit Successful
+[2019-07-10T13:27:52.403] [INFO] ProtractorTest - ######## End testcase : Customer Deposit with valid input ########
+[2019-07-10T13:27:52.420] [INFO] ProtractorTest - ######## Start testcase : Customer Deposit with valid input########
+[2019-07-10T13:27:52.421] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:52.436] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:54.358] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:27:54.870] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:27:55.195] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:27:55.824] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:56.302] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="deposit()"])] clicked
+[2019-07-10T13:27:56.506] [INFO] ProtractorTest - Text : '321' typed in Webelement[By(xpath, //input[@placeholder='amount'])]
+[2019-07-10T13:27:57.051] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:27:57.465] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='error ng-binding'])] contains text : Deposit Successful
+[2019-07-10T13:27:57.696] [INFO] ProtractorTest - ######## End testcase : Customer Deposit with valid input ########
+[2019-07-10T13:27:57.714] [INFO] ProtractorTest - ######## Start testcase : Customer Withdrawl when amount is less than equal to balance########
+[2019-07-10T13:27:57.714] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:27:57.725] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:27:59.683] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:28:00.010] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:28:00.339] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:28:01.018] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:01.366] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="withdrawl()"])] clicked
+[2019-07-10T13:28:01.569] [INFO] ProtractorTest - Text : '321' typed in Webelement[By(xpath, //input[@placeholder='amount'])]
+[2019-07-10T13:28:02.284] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:02.633] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='error ng-binding'])] contains text : Transaction successful
+[2019-07-10T13:28:02.860] [INFO] ProtractorTest - ######## End testcase : Customer Withdrawl when amount is less than equal to balance ########
+[2019-07-10T13:28:02.869] [INFO] ProtractorTest - ######## Start testcase : Customer Withdrawl when amount is less than equal to balance########
+[2019-07-10T13:28:02.869] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:28:02.873] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:28:04.296] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:28:04.698] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:28:04.916] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:28:05.608] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:06.067] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="withdrawl()"])] clicked
+[2019-07-10T13:28:06.271] [INFO] ProtractorTest - Text : '200' typed in Webelement[By(xpath, //input[@placeholder='amount'])]
+[2019-07-10T13:28:06.847] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:07.148] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='error ng-binding'])] contains text : Transaction successful
+[2019-07-10T13:28:07.377] [INFO] ProtractorTest - ######## End testcase : Customer Withdrawl when amount is less than equal to balance ########
+[2019-07-10T13:28:07.395] [INFO] ProtractorTest - ######## Start testcase : Customer Withdrawl when amount is greater than equal to balance########
+[2019-07-10T13:28:07.396] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:28:07.404] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:28:09.201] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:28:09.772] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:28:10.026] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:28:10.546] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:10.944] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="withdrawl()"])] clicked
+[2019-07-10T13:28:11.326] [INFO] ProtractorTest - Text : '3012' typed in Webelement[By(xpath, //input[@placeholder='amount'])]
+[2019-07-10T13:28:11.988] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:12.361] [INFO] ProtractorTest - Webelement : [By(xpath, //span[@class='error ng-binding'])] contains text : Transaction Failed.
+[2019-07-10T13:28:12.587] [INFO] ProtractorTest - ######## End testcase : Customer Withdrawl when amount is greater than equal to balance ########
+[2019-07-10T13:28:12.599] [INFO] ProtractorTest - ######## Start testcase : Validate the Reset button on transaction screen########
+[2019-07-10T13:28:12.599] [INFO] ProtractorTest - User Navigated to : http://www.way2automation.com/angularjs-protractor/banking/#/login
+[2019-07-10T13:28:12.602] [INFO] ProtractorTest - Webelement[By(css selector, [ng-click="customer()"])] present on screen
+[2019-07-10T13:28:14.410] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="customer()"])] clicked
+[2019-07-10T13:28:14.813] [INFO] ProtractorTest - Webelement : [by.model("custId")] clicked
+[2019-07-10T13:28:15.150] [INFO] ProtractorTest - Rahul Kant has been selected from dropdown [by.model("custId")]
+[2019-07-10T13:28:15.804] [INFO] ProtractorTest - Webelement : [By(xpath, //button[@type='submit'])] clicked
+[2019-07-10T13:28:16.207] [INFO] ProtractorTest - Webelement : [By(css selector, [ng-click="transactions()"])] clicked
+[2019-07-10T13:28:16.878] [INFO] ProtractorTest - ######## End testcase : Validate the Reset button on transaction screen ########

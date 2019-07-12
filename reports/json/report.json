@@ -1,0 +1,1081 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Manager Account",
+    "line": 1,
+    "id": "test-manager-account",
+    "tags": [],
+    "uri": "Testcases\\features\\1.manager.feature",
+    "elements": [
+      {
+        "id": "test-manager-account;add-new-customers",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Add New Customers",
+        "tags": [
+          {
+            "name": "@manager",
+            "line": 3
+          },
+          {
+            "name": "@addCustomer",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "A manager gets logged in",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Add a Customer with 'Rahul', 'Kant', 'E1234'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Customer ['Rahul' 'Kant'] must get added in Customer List",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-manager-account;add-new-customers",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Add New Customers",
+        "tags": [
+          {
+            "name": "@manager",
+            "line": 3
+          },
+          {
+            "name": "@addCustomer",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "A manager gets logged in",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Add a Customer with 'Ravneet', 'Kaul', '121234'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Customer ['Ravneet' 'Kaul'] must get added in Customer List",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-manager-account;open-new-account",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Open New Account",
+        "tags": [
+          {
+            "name": "@manager",
+            "line": 15
+          },
+          {
+            "name": "@openAccount",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "A manager gets logged in",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Open account for a Customer with name as  \"Rahul Kant\" and Currency type as \"Pound\"",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Account must get added in Customer List with name as \"Rahul Kant\"",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2266000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-manager-account;open-new-account",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Open New Account",
+        "tags": [
+          {
+            "name": "@manager",
+            "line": 15
+          },
+          {
+            "name": "@openAccount",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1558000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "A manager gets logged in",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Open account for a Customer with name as  \"Ravneet Kaul\" and Currency type as \"Dollar\"",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Account must get added in Customer List with name as \"Ravneet Kaul\"",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2294000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Customer Account Automation",
+    "line": 1,
+    "id": "customer-account-automation",
+    "tags": [],
+    "uri": "Testcases\\features\\2.customer.feature",
+    "elements": [
+      {
+        "id": "customer-account-automation;customer-login-validation",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Customer Login Validation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1829000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User select his name 'Rahul Kant' and Click Login Button",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User name 'Rahul Kant' should be visible on the screen",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;customer-deposit-with-valid-input",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Customer Deposit with valid input",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Deposit 230 in his Account",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User should get message as 'Deposit Successful'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;customer-deposit-with-valid-input",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Customer Deposit with valid input",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1924000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Deposit 321 in his Account",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User should get message as 'Deposit Successful'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;customer-withdrawl-when-amount-is-less-than-equal-to-balance",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Customer Withdrawl when amount is less than equal to balance",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1590000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1900000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Withdraw 321 from his Account",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "User should get message as 'Transaction successful'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;customer-withdrawl-when-amount-is-less-than-equal-to-balance",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Customer Withdrawl when amount is less than equal to balance",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Withdraw 200 from his Account",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "User should get message as 'Transaction successful'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;customer-withdrawl-when-amount-is-greater-than-equal-to-balance",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Customer Withdrawl when amount is greater than equal to balance",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1862000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Withdraw amount greater than balance from his Account",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "User should get message as 'Transaction Failed.'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 366000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-account-automation;validate-the-reset-button-on-transaction-screen",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Validate the Reset button on transaction screen",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:2"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "User is on the Home page of the application",
+            "match": {
+              "location": "Testcases\\stepdefinations\\manager.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "A customer gets logged in as 'Rahul Kant'",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1783000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Navigate to Transactions Screen",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Reset button should be present if balance is greater than 0",
+            "match": {
+              "location": "Testcases\\stepdefinations\\customer.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Testcases\\stepdefinations\\hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -4,21 +4,23 @@
   "description": "Protractor NAGP Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor config.js",
+    "start":""
   },
   "author": "Sachin Ahuja",
   "license": "ISC",
   "e2e": "protractor conf.js",
   "devDependencies": {
+    "cucumber": "^4.2.1",
     "cucumber-html-reporter": "^4.0.4",
+    "log4js": "4.4.0",
+    "log4js-protractor-appender":"^1.1.2",
+    "protractor": "^5.4.2",
     "protractor-cucumber-framework": "^6.0.0",
-    "protractor-html-reporter": "^1.3.2",
-    "log4js": "4.4.0"
-  },
-  "dependencies": {
+    "protractor-html-reporter": "^1.3.2",    
+    "properties-reader":"^0.2.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "cucumber": "^4.2.1",
     "cucumber-pretty": "^1.4.4"
   }
 }
