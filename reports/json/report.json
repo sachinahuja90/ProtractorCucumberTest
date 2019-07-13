@@ -28,11 +28,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 3913000000
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2648000000
+              "duration": 512000000
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 6,
             "name": "A manager gets logged in",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:13"
+              "location": "Testcases\\stepdefinations\\manager.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 334000000
             }
           },
           {
@@ -67,11 +67,11 @@
             "line": 7,
             "name": "Add a Customer with 'Rahul', 'Kant', 'E1234'",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:19"
+              "location": "Testcases\\stepdefinations\\manager.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2025000000
+              "duration": 2327000000
             }
           },
           {
@@ -80,18 +80,18 @@
             "line": 8,
             "name": "Customer ['Rahul' 'Kant'] must get added in Customer List",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:30"
+              "location": "Testcases\\stepdefinations\\manager.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 417000000
+              "duration": 692000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
               "status": "passed",
@@ -105,7 +105,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -131,11 +132,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 1065000000
             }
           },
           {
@@ -148,7 +149,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1193000000
+              "duration": 343000000
             }
           },
           {
@@ -157,11 +158,11 @@
             "line": 6,
             "name": "A manager gets logged in",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:13"
+              "location": "Testcases\\stepdefinations\\manager.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 137000000
+              "duration": 347000000
             }
           },
           {
@@ -170,11 +171,11 @@
             "line": 7,
             "name": "Add a Customer with 'Ravneet', 'Kaul', '121234'",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:19"
+              "location": "Testcases\\stepdefinations\\manager.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1171000000
+              "duration": 1774000000
             }
           },
           {
@@ -183,18 +184,18 @@
             "line": 8,
             "name": "Customer ['Ravneet' 'Kaul'] must get added in Customer List",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:30"
+              "location": "Testcases\\stepdefinations\\manager.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 250000000
+              "duration": 451000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
               "status": "passed"
@@ -207,7 +208,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -233,11 +235,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 1182000000
             }
           },
           {
@@ -250,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1248000000
+              "duration": 348000000
             }
           },
           {
@@ -259,11 +261,11 @@
             "line": 18,
             "name": "A manager gets logged in",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:13"
+              "location": "Testcases\\stepdefinations\\manager.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 268000000
+              "duration": 370000000
             }
           },
           {
@@ -272,11 +274,11 @@
             "line": 19,
             "name": "Open account for a Customer with name as  \"Rahul Kant\" and Currency type as \"Pound\"",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:39"
+              "location": "Testcases\\stepdefinations\\manager.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 2208000000
+              "duration": 2668000000
             }
           },
           {
@@ -285,18 +287,18 @@
             "line": 20,
             "name": "Account must get added in Customer List with name as \"Rahul Kant\"",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:54"
+              "location": "Testcases\\stepdefinations\\manager.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 2266000000
+              "duration": 2421000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
               "status": "passed",
@@ -310,7 +312,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -336,11 +339,11 @@
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 1296000000
             }
           },
           {
@@ -353,7 +356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1558000000
+              "duration": 346000000
             }
           },
           {
@@ -362,11 +365,11 @@
             "line": 18,
             "name": "A manager gets logged in",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:13"
+              "location": "Testcases\\stepdefinations\\manager.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 328000000
+              "duration": 387000000
             }
           },
           {
@@ -375,11 +378,11 @@
             "line": 19,
             "name": "Open account for a Customer with name as  \"Ravneet Kaul\" and Currency type as \"Dollar\"",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:39"
+              "location": "Testcases\\stepdefinations\\manager.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 2410000000
+              "duration": 2752000000
             }
           },
           {
@@ -388,22 +391,21 @@
             "line": 20,
             "name": "Account must get added in Customer List with name as \"Ravneet Kaul\"",
             "match": {
-              "location": "Testcases\\stepdefinations\\manager.js:54"
+              "location": "Testcases\\stepdefinations\\manager.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 2294000000
+              "duration": 2455000000
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -413,7 +415,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -431,70 +434,80 @@
       {
         "id": "customer-account-automation;customer-login-validation",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 4,
         "name": "Customer Login Validation",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 3
+          },
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 1210000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1829000000
+              "duration": 341000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "User select his name 'Rahul Kant' and Click Login Button",
+            "line": 6,
+            "name": "User select his name 'Harry Potter' and Click Login Button",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1965000000
+              "status": "failed",
+              "duration": 5016000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\cucumber\\src\\user_code_runner.js:61:18)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "User name 'Rahul Kant' should be visible on the screen",
+            "line": 7,
+            "name": "User name 'Harry Potter' should be visible on the screen",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 489000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 5004000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\cucumber\\src\\user_code_runner.js:61:18)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
             }
           },
           {
@@ -504,8 +517,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -513,83 +525,92 @@
       {
         "id": "customer-account-automation;customer-deposit-with-valid-input",
         "keyword": "Scenario",
-        "line": 17,
+        "line": 20,
         "name": "Customer Deposit with valid input",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 12
+          },
+          {
+            "name": "@Deposit",
+            "line": 12
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2887000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 14,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1163000000
+              "duration": 294000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 15,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1450000000
+              "status": "failed",
+              "duration": 5004000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\cucumber\\src\\user_code_runner.js:61:18)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 13,
+            "line": 16,
             "name": "Deposit 230 in his Account",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1519000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 17,
             "name": "User should get message as 'Deposit Successful'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 377000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 1816000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -608,83 +629,90 @@
       {
         "id": "customer-account-automation;customer-deposit-with-valid-input",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 21,
         "name": "Customer Deposit with valid input",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 12
+          },
+          {
+            "name": "@Deposit",
+            "line": 12
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "failed",
+              "duration": 23000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 14,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1658000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 12,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 15,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1924000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 13,
+            "line": 16,
             "name": "Deposit 321 in his Account",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 1236000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 17,
             "name": "User should get message as 'Deposit Successful'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 412000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 10000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -703,82 +731,90 @@
       {
         "id": "customer-account-automation;customer-withdrawl-when-amount-is-less-than-equal-to-balance",
         "keyword": "Scenario",
-        "line": 29,
+        "line": 31,
         "name": "Customer Withdrawl when amount is less than equal to balance",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 23
+          },
+          {
+            "name": "@Withdraw",
+            "line": 23
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "failed",
+              "duration": 15000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 23,
+            "line": 25,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1590000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 26,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1900000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
+            "line": 27,
             "name": "Withdraw 321 from his Account",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 1283000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
+            "line": 28,
             "name": "User should get message as 'Transaction successful'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 344000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -788,7 +824,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -796,83 +833,90 @@
       {
         "id": "customer-account-automation;customer-withdrawl-when-amount-is-less-than-equal-to-balance",
         "keyword": "Scenario",
-        "line": 30,
+        "line": 32,
         "name": "Customer Withdrawl when amount is less than equal to balance",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 23
+          },
+          {
+            "name": "@Withdraw",
+            "line": 23
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 12000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 23,
+            "line": 25,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1222000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 26,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1711000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
+            "line": 27,
             "name": "Withdraw 200 from his Account",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 1255000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
+            "line": 28,
             "name": "User should get message as 'Transaction successful'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 301000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -891,83 +935,94 @@
       {
         "id": "customer-account-automation;customer-withdrawl-when-amount-is-greater-than-equal-to-balance",
         "keyword": "Scenario",
-        "line": 33,
+        "line": 35,
         "name": "Customer Withdrawl when amount is greater than equal to balance",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 34
+          },
+          {
+            "name": "@Withdraw",
+            "line": 34
+          },
+          {
+            "name": "@Negative",
+            "line": 34
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 34,
+            "line": 36,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1481000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 35,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 37,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1862000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 36,
+            "line": 38,
             "name": "Withdraw amount greater than balance from his Account",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:38"
             },
             "result": {
-              "status": "passed",
-              "duration": 1462000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 37,
-            "name": "User should get message as 'Transaction Failed.'",
+            "line": 39,
+            "name": "User should get message as 'Transaction Failed. You can not withdraw amount more than the balance.'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 366000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 7000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -986,82 +1041,86 @@
       {
         "id": "customer-account-automation;validate-the-reset-button-on-transaction-screen",
         "keyword": "Scenario",
-        "line": 40,
+        "line": 43,
         "name": "Validate the Reset button on transaction screen",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@Customer",
+            "line": 42
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:2"
+              "location": "Testcases\\Utilities\\hooks.js:2"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 14000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 41,
+            "line": 44,
             "name": "User is on the Home page of the application",
             "match": {
               "location": "Testcases\\stepdefinations\\manager.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 1614000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 42,
-            "name": "A customer gets logged in as 'Rahul Kant'",
+            "line": 45,
+            "name": "A customer gets logged in as 'Harry Potter'",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1783000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 43,
+            "line": 46,
             "name": "Navigate to Transactions Screen",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:54"
             },
             "result": {
-              "status": "passed",
-              "duration": 415000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 44,
+            "line": 47,
             "name": "Reset button should be present if balance is greater than 0",
             "match": {
               "location": "Testcases\\stepdefinations\\customer.js:59"
             },
             "result": {
-              "status": "passed",
-              "duration": 439000000
+              "status": "skipped"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "match": {
-              "location": "Testcases\\stepdefinations\\hooks.js:10"
+              "location": "Testcases\\Utilities\\hooks.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "failed",
+              "duration": 8000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=75.0.3770.100)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\nSystem info: host: 'SACHIN4597-01', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'\nDriver info: driver.version: unknown\n    at Object.checkLegacyResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (D:\\NAGP\\Protractor\\SachinAhuja_4597_Protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
             }
           },
           {
@@ -1071,7 +1130,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]

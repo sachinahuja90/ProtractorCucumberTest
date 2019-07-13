@@ -26,40 +26,32 @@ When('Add a Customer with {string}, {string}, {string}', async function (string,
 });
 
 
-Then('Customer [{string} {string}] must get added in Customer List', function (string, string2) {
-  browserKeywords.click(managerPage.managerPage.customerButton);
-  expect(element(by.xpath("//tbody/tr/td[text()='"+string+"']")).isDisplayed()).to.eventually.be.true;
-  return browser.sleep(20);
+Then('Customer [{string} {string}] must get added in Customer List', async function (string, string2) {
+  await browserKeywords.click(managerPage.managerPage.customerButton);
+  await expect(element(by.xpath("//tbody/tr/td[text()='"+string+"']")).isDisplayed()).to.eventually.be.true;
+  return await browser.sleep(20);
 });
 
 
 
 
-When('Open account for a Customer with name as  {string} and Currency type as {string}', function (string, string2) {
-  browserKeywords.click(managerPage.managerPage.openAccountButton);
-  //managerPage.clickOpenAccountButton();
-  browserKeywords.selectByValueFromDropdown(customerPage.customerPage.customerNameDropdown,string);
-  //customerPage.selectCustomerNameFromDropdown(string);
-  
-  browserKeywords.selectByValueFromDropdown(customerPage.customerPage.currencyTypeDropdown,string2);
-  //customerPage.selectcurrencyTypeDropdown(string2);
-
-  browserKeywords.click(customerPage.customerPage.submitButton);
-  //customerPage.clickSubmitButton();
-  browser.sleep(200);
-  return browser.switchTo().alert().accept();
+When('Open account for a Customer with name as  {string} and Currency type as {string}', async function (string, string2) {
+  await browserKeywords.click(managerPage.managerPage.openAccountButton);
+  await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.customerNameDropdown,string);
+  await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.currencyTypeDropdown,string2);
+  await browserKeywords.click(customerPage.customerPage.submitButton);
+  await browser.sleep(200);
+  return await browser.switchTo().alert().accept();
 });
 
-Then('Account must get added in Customer List with name as {string}', function (string) {
-  browserKeywords.click(managerPage.managerPage.customerButton);
-  //managerPage.clickCustomerButton();
-
-  element(by.xpath("(//tbody/tr/td[text()='"+string.split(" ")[0]+"']/following-sibling::td)[3]")).getText().then(function(text){
+Then('Account must get added in Customer List with name as {string}',async function (string) {
+  await browserKeywords.click(managerPage.managerPage.customerButton);
+  await element(by.xpath("(//tbody/tr/td[text()='"+string.split(" ")[0]+"']/following-sibling::td)[3]")).getText().then(async function(text){
     if(isNaN(text.split(" ")[0])){
       const exists = true;
-      expect(!exists).to.throw('Account not created');
+      await expect(!exists).to.throw('Account not created');
     }
   });
-  return browser.sleep(2000);
+  return await browser.sleep(2000);
 });
 
