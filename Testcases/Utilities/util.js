@@ -8,34 +8,31 @@ var util = function () {
         var destination = await source + '.zip'
         try {
             await zip(source, destination);
-            await commonLogger.info("Zipped folder : " + applicationURL);
         }
-        catch (err) {
-        
-            await commonLogger.error(err);
+        catch (e) {
+            await commonLogger.error(e);
             throw e;
         }
     };
 
     this.copyFile = async function (source, destination) {
-        try{
-        await fs.copyFile(source, destination, async (err) => {
-            if (err) {
-                await commonLogger.error(err);
-                throw err;
-            }
-            await commonLogger.log('Archived html report');
-        });
-    }
-    catch (err) {
-        
-        await commonLogger.error(err);
-        throw e;
-    }
+        try {
+            await fs.copyFile(source, destination, async (err) => {
+                if (err) {
+                    await commonLogger.error(err);
+                    throw err;
+                }                
+            });
+        }
+        catch (e) {
+            await commonLogger.error(e);
+            throw e;
+        }
     };
 
 
     this.archiveReport = async function (report) {
+        
         try {
             var temp = await report.split("/");
             var curDT = await this.getCurrentDateTime();
@@ -48,35 +45,32 @@ var util = function () {
             await this.copyFile(report, destination);
             await this.zip(arcFolder);
             await this.deleteFolder(arcFolder);
+            commonLogger.info("Archived Folder : "+arcFolder);
         }
         catch (e) {
-        
-            await commonLogger.error(err);
+            await commonLogger.error(e);
             throw e;
-
         }
     }
 
     String.prototype.replaceAll = async function (search, replacement) {
-        try{
-        var target = this;
-        return await target.replace(new RegExp(search, 'g'), replacement);
+        try {
+            var target = this;
+            return await target.replace(new RegExp(search, 'g'), replacement);
         }
-        catch (err) {
-        
-            await commonLogger.error(err);
+        catch (e) {
+            await commonLogger.error(e);
             throw e;
         }
     };
 
     this.getCurrentDateTime = async function () {
-        try{
-        var dt = await dateTime.create();
-        return await dt.format('Y-m-d H:M:S');
+        try {
+            var dt = await dateTime.create();
+            return await dt.format('Y-m-d H:M:S');
         }
-        catch (err) {
-        
-            await commonLogger.error(err);
+        catch (e) {
+            await commonLogger.error(e);
             throw e;
         }
     };
@@ -84,36 +78,37 @@ var util = function () {
     this.createFolder = async function (folder) {
         try {
             if (await !fs.existsSync(folder)) {
-                await fs.mkdirSync(folder);
-                await commonLogger.log("Folder " + folder + " created successfully.");
+                await fs.mkdirSync(folder);                
             }
-        } catch (err) {
-        
-            await commonLogger.error(err);
+        } catch (e) {
+            await commonLogger.error(e);
             throw e;
         }
     }
 
     this.deleteFolder = async function (path) {
-        try{
-        if (await fs.existsSync(path)) {
-            await fs.readdirSync(path).forEach(async function (file, index) {
-                var curPath = path + "/" + file;
-                if (await fs.lstatSync(curPath).isDirectory()) { // recurse
-                    await deleteFolder(curPath);
-                } else { // delete file
-                    await fs.unlinkSync(curPath);
-                }
-            });
-            await fs.rmdirSync(path);
-        }
-        await commonLogger.log("Folder : " + folder + " deleted successfully.");
-    }
-    catch(e){
         
-        await commonLogger.error(err);
-        throw e;
-    }
+        try {
+            if (await fs.existsSync(path)) {
+        
+                await fs.readdirSync(path).forEach(async function (file, index) {
+        
+                    var curPath = path + "/" + file;
+                    if (await fs.lstatSync(curPath).isDirectory()) { // recurse
+                        await deleteFolder(curPath);
+                    } else { // delete file
+                        await fs.unlinkSync(curPath);
+                    }
+                });
+                await fs.rmdirSync(path);
+            }
+            
+        }
+        catch (e) {
+            
+            await commonLogger.error(e);
+            throw e;
+        }
     };
 
     this.createReportFolder = async function () {
@@ -126,9 +121,8 @@ var util = function () {
             await this.createFolder(arcFolder);
             await this.createFolder(arcFolder + cr1);
         }
-        catch (err) {
-        
-            await commonLogger.error(err);
+        catch (e) {
+            await commonLogger.error(e);
             throw e;
         }
     }
@@ -136,7 +130,7 @@ var util = function () {
     this.createBlankJson = function (file) {
         // appendFile function with filename, content and callback function
         fs.appendFile(file, '', function (err) {
-            if (err) throw err;
+            if (e) throw e;
             commonLogger.log('File is created successfully.');
         });
     }

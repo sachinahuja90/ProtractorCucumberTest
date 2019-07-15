@@ -39,7 +39,7 @@ Feature: Customer Account Automation
         Then User should get message as 'Transaction Failed. You can not withdraw amount more than the balance.'
 
 
-    @Customer
+    @Customer @Transaction
     Scenario: Validate the Reset button on transaction screen
         Given User is on the Home page of the application
         When A customer gets logged in as 'Harry Potter'

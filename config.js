@@ -65,7 +65,6 @@ exports.config = {
             './Testcases/Utilities/*.js'
         ],
         tags: '@Deposit',
-
         format: ['node_modules/cucumber-pretty', 'json:./reports/json/report.json'],
     },
 
@@ -102,7 +101,7 @@ exports.config = {
     },
 
     onComplete: async function () {
-        var options = {
+        var options = await {
             theme: 'bootstrap',
             jsonFile: 'reports/json/report.json',
             output: 'reports/html/cucumber_report.html',
