@@ -3,55 +3,91 @@ var managerPage = require('../pageObjects/managerPage');
 var customerPage = require('../pageObjects/customerPage');
 var browserKeywords = require('../Utilities/browserKeywords');
 Given('User is on the Home page of the application', async function () {
-  await browserKeywords.verifyElementPresence(homePage.homePage.customerLoginButton);
-  return await browser.sleep(20);
+  try {
+    await browserKeywords.verifyElementPresence(homePage.homePage.customerLoginButton);
+    return await browser.sleep(20);
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
 
 
 When('A manager gets logged in', async function () {
-  await browserKeywords.click(homePage.homePage.managerLoginButton);
-  return await  browser.sleep(20);
+  try {
+    await browserKeywords.click(homePage.homePage.managerLoginButton);
+    return await browser.sleep(20);
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
 
 When('Add a Customer with {string}, {string}, {string}', async function (string, string2, string3) {
-  await browserKeywords.click(managerPage.managerPage.addCustomerButton);
-  await browserKeywords.sendKeys(managerPage.managerPage.firstName,string);
-  await browserKeywords.sendKeys(managerPage.managerPage.lastName,string2);
-  await browserKeywords.sendKeys(managerPage.managerPage.postalCode,string3);
-  await browserKeywords.click(managerPage.managerPage.submitButton);
-  await browser.sleep(20);
-  return await browser.switchTo().alert().accept();
+  try {
+    await browserKeywords.click(managerPage.managerPage.addCustomerButton);
+    await browserKeywords.sendKeys(managerPage.managerPage.firstName, string);
+    await browserKeywords.sendKeys(managerPage.managerPage.lastName, string2);
+    await browserKeywords.sendKeys(managerPage.managerPage.postalCode, string3);
+    await browserKeywords.click(managerPage.managerPage.submitButton);
+    await browser.sleep(20);
+    return await browser.switchTo().alert().accept();
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
 
 Then('Customer [{string} {string}] must get added in Customer List', async function (string, string2) {
-  await browserKeywords.click(managerPage.managerPage.customerButton);
-  await expect(element(by.xpath("//tbody/tr/td[text()='"+string+"']")).isDisplayed()).to.eventually.be.true;
-  return await browser.sleep(20);
+  try {
+    await browserKeywords.click(managerPage.managerPage.customerButton);
+    await expect(element(by.xpath("//tbody/tr/td[text()='" + string + "']")).isDisplayed()).to.eventually.be.true;
+    return await browser.sleep(20);
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
 
 
 
 When('Open account for a Customer with name as  {string} and Currency type as {string}', async function (string, string2) {
-  await browserKeywords.click(managerPage.managerPage.openAccountButton);
-  await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.customerNameDropdown,string);
-  await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.currencyTypeDropdown,string2);
-  await browserKeywords.click(customerPage.customerPage.submitButton);
-  await browser.sleep(200);
-  return await browser.switchTo().alert().accept();
+  try {
+    await browserKeywords.click(managerPage.managerPage.openAccountButton);
+    await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.customerNameDropdown, string);
+    await browserKeywords.selectByValueFromDropdown(customerPage.customerPage.currencyTypeDropdown, string2);
+    await browserKeywords.click(customerPage.customerPage.submitButton);
+    await browser.sleep(200);
+    return await browser.switchTo().alert().accept();
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
-Then('Account must get added in Customer List with name as {string}',async function (string) {
-  await browserKeywords.click(managerPage.managerPage.customerButton);
-  await element(by.xpath("(//tbody/tr/td[text()='"+string.split(" ")[0]+"']/following-sibling::td)[3]")).getText().then(async function(text){
-    if(isNaN(text.split(" ")[0])){
-      const exists = true;
-      await expect(!exists).to.throw('Account not created');
-    }
-  });
-  return await browser.sleep(2000);
+Then('Account must get added in Customer List with name as {string}', async function (string) {
+  try {
+    await browserKeywords.click(managerPage.managerPage.customerButton);
+    await element(by.xpath("(//tbody/tr/td[text()='" + string.split(" ")[0] + "']/following-sibling::td)[3]")).getText().then(async function (text) {
+      if (isNaN(text.split(" ")[0])) {
+        const exists = true;
+        await expect(!exists).to.throw('Account not created');
+      }
+    });
+    return await browser.sleep(2000);
+  }
+  catch (e) {
+    await Logger.error("Testcase Failed due to :" + e);
+    throw e;
+  }
 });
 
