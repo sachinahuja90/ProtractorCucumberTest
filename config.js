@@ -5,13 +5,7 @@ var log4js = require('log4js');
 var reporter = require('cucumber-html-reporter');
 var util = require('./Testcases/Utilities/util');
 
-
-//var PropertiesReader = require('properties-reader');
 chai.use(chaiAsPromised);
-
-
-
-
 exports.config = {
 
     // Selenium server path
@@ -19,7 +13,6 @@ exports.config = {
 
     // Disabled selenium promise manager
     SELENIUM_PROMISE_MANAGER: false,
-
 
     // set  timeout time
     setPageTimeout: 100000,
@@ -58,7 +51,6 @@ exports.config = {
         }
     ],
     */
-
 
     // set to "custom" instead of cucumber.
     framework: 'custom',
