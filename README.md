@@ -35,12 +35,11 @@ Protractor is an end-to-end test framework for Angular and AngularJS application
 
 
 ## To view Report 
-1. Go to the root directory under `SeleniumProject/Current_test_results/<yyyy-mm-dd hh-mm-ss>/testReport.html`
-2. All past reports are saved under `SeleniumProject/Arhived_test_results/<yyyy-mm-dd hh-mm-ss>.zip/testReport.html` 
+1. Go to the root directory under `reports/html/cucumber_report.html`
+2. All past reports are saved under `reports/html/<yyyy-mm-dd hh-mm-ss>.zip/cucumber_report.html` 
 
 
-Note: Test cases are available in `SeleniumProject\src\test\resources\Testcases.xlsx` for your reference.
+Note: Test cases are available in `.\Testcases.xlsx` for your reference.
 
 ## Git Repository for the source.
-`https://github.com/sachinahuja90/NAGPSeleniumAssignment`
-
+`https://github.com/sachinahuja90/ProtractorCucumberTest.git`
